@@ -1,0 +1,65 @@
+
+// {
+//   "expo": {
+//    "name": "BUSDEV",
+//     "icon": "./assets/ic_launcher.png",
+//    "version": "1.0.0",
+//    "slug": "UPRAK",
+//    "sdkVersion": "36.0.0",
+//    "ios": {
+//      "bundleIdentifier": "com.DJUANDA.BUSDEV"
+//    },
+//    "android": {
+//      "package": "com.DJUANDA.BUSDEV"
+//    }
+//   }
+// }
+
+{
+  "expo": {
+    "name": "BUSDEV",
+    "slug": "UPRAK",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ic_launcher.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "json",
+        "ts",
+        "tsx",
+        "vue"
+      ]
+    },
+    "android": {
+      "package": "com.DJUANDA.BUSDEV"
+    },
+    "ios": {
+      "bundleIdentifier": "com.DJUANDA.BUSDEV"
+    }
+  }
+  
+}
